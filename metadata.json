@@ -1,0 +1,6 @@
+{
+  "name": "Numelite Conseil - Cabinet de Conseil & Stratégie",
+  "description": "Cabinet de conseil de haut niveau au service des institutions, entreprises et partenaires au développement. Télécommunications, économie numérique et statistiques publiques au Sahel et en Afrique de l'Ouest.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-navy-dark: #001026;
+  --color-navy-primary: #0B2545;
+  --color-navy-slate: #1E3A5F;
+  --color-gold-imperial: #D4A017;
+  --color-gold-bright: #F6BE39;
+  --color-gold-soft: #FFDF85;
+  --color-alabaster: #FAF9F7;
+}
+
+:root {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+h1, h2, h3, .font-editorial {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+/* Custom scrollbar for modern browser */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF9F7;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4C6CF;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #74777F;
+}
+
